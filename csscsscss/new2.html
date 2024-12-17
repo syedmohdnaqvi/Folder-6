@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 100%;
+            height: 60vh;
+            display: flex;
+            gap: 40px;
+            justify-content: center;
+            align-items: center;
+        }
+        .cardiv{
+            width: 25%;
+            height: 600px;
+            border: 2px solid black;
+        }
+        .car{
+            width: 100%;
+            height: 300px;
+            background-image: url('images/Lamborghini-Huracan-Evo-4.webp');
+            background-size: cover;
+            display: flex;
+            justify-content: end;
+            align-items: end;
+        }
+        .car2{
+            background-image: url('images/Audi-RS3-Sportsback-5.webp');
+            height: 300px;
+            background-size: cover;
+            display: flex;
+            justify-content: end;
+            align-items: end;
+        }
+
+        .car3{
+            background-image: url('images/Cadillac-Escallade-4.webp');
+            height: 300px;
+            background-size: cover;
+            display: flex;
+            justify-content: end;
+            align-items: end;
+        }
+
+        .price{
+            width: 100px;
+            height: 80px;
+            background-color: orangered;
+            color: white;
+            text-align: center;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .cardetails{
+            width: 100%;
+            height: 200px;
+
+        }
+        .icons{
+            width: 100%;
+            height:150px;
+        }
+        .icon{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+        }
+        .readmore{
+            width: 100%;
+            height: 60px;
+            background-color: grey;
+        }
+        .readmore:hover{
+            background-color: orangered;
+        }
+        .lasttext{
+            font-size: 20px;
+            text-align: center;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="cardiv">
+           <div class="car">
+               <div class="price">
+                 <p>2,700 AED</p>
+                 <span>Per Day</span>
+               </div>
+           </div>
+           <div class="cardetails">
+             <h1 style="text-align: center;">Lamborghini Huracan Evo</h1>
+             <div class="icons">
+                <div class="icon">
+                    <div class="icon1">
+                       <img src="images/steering-wheel-car-svgrepo-com.svg" alt="" style="width: 100%; height: 40px;">
+                       <p style="font-size: 20px; border-right: 1px solid black; border-left: 1px solid black; padding: 10px;">2024</p>
+                    </div>
+                    <div class="icon2">
+                       <img src="images/car-side-svgrepo-com.svg" alt="" style="width: 100%; height: 40px;">
+                       <p style="font-size: 20px; border-right: 1px solid black; border-left: 1px solid black; padding: 10px;">2700</p>
+                    </div>
+                </div>
+             </div>
+
+           </div>
+           <div class="readmore">
+               <p class="lasttext">READ MORE >></p>       
+           </div>
+
+        </div>
+        <div class="cardiv">
+            <div class="car2">
+                <div class="price">
+                  <p>800 AED</p>
+                  <span>Per Day</span>
+                </div>
+            </div>
+            <div class="cardetails">
+                <h1 style="text-align: center;">Audi RS3 Sportback</h1>
+                <div class="icons">
+                   <div class="icon">
+                       <div class="icon1">
+                          <img src="images/steering-wheel-car-svgrepo-com.svg" alt="" style="width: 100%; height: 40px;">
+                          <p style="font-size: 20px; border-right: 1px solid black; border-left: 1px solid black; padding: 10px;">2024</p>
+                       </div>
+                       <div class="icon2">
+                          <img src="images/car-side-svgrepo-com.svg" alt="" style="width: 100%; height: 40px;">
+                          <p style="font-size: 20px; border-right: 1px solid black; border-left: 1px solid black; padding: 10px;">800</p>
+                       </div>
+                   </div>
+                </div>
+   
+              </div>
+              <div class="readmore">
+                  <p class="lasttext">READ MORE >></p>       
+              </div>
+   
+        </div>
+        <div class="cardiv">
+            <div class="car3">
+                <div class="price">
+                  <p>1,000 AED</p>
+                  <span>Per Day</span>
+                </div>
+            </div>
+            <div class="cardetails">
+                <h1 style="text-align: center;">Cadillac Escallade</h1>
+                <div class="icons">
+                   <div class="icon">
+                       <div class="icon1">
+                          <img src="images/steering-wheel-car-svgrepo-com.svg" alt="" style="width: 100%; height: 40px;">
+                          <p style="font-size: 20px; border-right: 1px solid black; border-left: 1px solid black; padding: 10px;">2024</p>
+                       </div>
+                       <div class="icon2">
+                          <img src="images/car-side-svgrepo-com.svg" alt="" style="width: 100%; height: 40px;">
+                          <p style="font-size: 20px; border-right: 1px solid black; border-left: 1px solid black; padding: 10px;">1000</p>
+                       </div>
+                   </div>
+                </div>
+   
+              </div>
+              <div class="readmore">
+                  <p class="lasttext">READ MORE >></p>       
+              </div>
+   
+        </div>
+    </div>
+</body>
+</html>
